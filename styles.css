@@ -5,26 +5,65 @@ body {
 	margin: 0;
 	padding: 0;
 }
-img {
+
+.img {
+	position: relative;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+h2 {
+	font-size: 3rem;
+	margin-bottom: 0px;
+}
+
+p {
+	margin: 7px;
+	font-size: 1.5rem;
+}
+
+img {
+	height: 100%;
+	width: 100%;
 }
 
 main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin-top: 3rem;
+	margin-top: 3em;
 }
 
 .lang {
-	width: 98%;
+	width: 99%;
+	min-height: 300px;
 }
 
 .kurz {
-	width: 48%;
+	width: 49%;
 }
 
+.text {
+	position: absolute;
+	top: 7%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+a {
+	margin: 5px;
+}
+
+.black_background {
+	color: white;
+}
 @media screen and (max-width: 720px) {
 	.kurz {
 		width: 95%;
@@ -41,7 +80,6 @@ nav {
 	height: 3rem;
 	top: 0;
 }
-
 .navlinks {
 	display: flex;
 	justify-content: space-around;
@@ -53,26 +91,39 @@ nav {
 	color: #f9f9f9;
 	text-decoration: none;
 }
-
 footer {
 	width: 60%;
 	margin: auto;
 	font-size: 14px;
 	color: gray;
 }
-h3 {
+footer h3 {
 	font-size: 14px;
 	font-weight: 600;
+	margin: 0;
+}
+footer p {
+	font-size: 1em;
+	margin-left: 0;
+}
+hr {
+	margin-top: 1em;
+	opacity: 65%;
+}
+a {
 	margin: 0;
 }
 .notes li {
 	margin-bottom: 1em;
 }
-
+.notes a {
+	color: gray;
+}
 .footlinks {
 	display: flex;
 	justify-content: space-between;
 	list-style-type: none;
+	padding-left: 0;
 }
 .footlinks ul {
 	list-style-type: none;
@@ -85,4 +136,32 @@ h3 {
 .footlinks a {
 	color: gray;
 	text-decoration: none;
+}
+.copyright {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.copyright p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.copyright ul {
+	display: flex;
+	width: 100%;
+	padding: 0;
+	justify-content: left;
+	list-style-type: none;
+}
+.copyright li::after {
+	content: "|";
+	padding: 1.2em;
+}
+.copyright li:last-child::after {
+	content: none;
+}
+.copyright li a {
+	text-decoration: none;
+	color: gray;
+	margin: 0;
 }
