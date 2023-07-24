@@ -106,6 +106,9 @@ footer p {
 	font-size: 1em;
 	margin-left: 0;
 }
+footer ol {
+	padding-left: 1.5em;
+}
 hr {
 	margin-top: 1em;
 	opacity: 65%;
