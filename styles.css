@@ -74,6 +74,22 @@ a:hover {
 	color: white;
 }
 
+.navlinks {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	width: 100%;
+	list-style-type: none;
+}
+
+.wide_screen {
+	width: 90%;
+}
+
+.portable_screen{
+	display: none;
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
 	.lang {
 		min-width: 1500px;
@@ -83,6 +99,15 @@ a:hover {
 	.kurz {
 		min-width: 770px;
 		min-height: 470px;
+	}
+
+	.portable_screen {
+		width: 90%;
+		display: block;
+	}
+
+	.wide_screen {
+		display: none;
 	}
 
 	a {
@@ -105,6 +130,15 @@ a:hover {
 		width: 99%;
 		min-width: 1100px;
 		min-height: 380px;
+	}
+
+	.portable_screen {
+		width: 70%;
+		display: block;
+	}
+
+	.wide_screen {
+		display: none;
 	}
 
 	.kurz {
@@ -139,18 +173,13 @@ nav {
 	display: flex;
 	margin: none;
 	align-items: center;
+	flex-direction: column;
 	width: 100vw;
 	height: 3rem;
 	top: 0;
 	z-index: 1000;
 }
-.navlinks {
-	display: flex;
-	justify-content: space-around;
-	margin: auto;
-	width: 70%;
-	list-style-type: none;
-}
+
 .navlinks a {
 	color: #f9f9f9;
 	text-decoration: none;
