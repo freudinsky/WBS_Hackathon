@@ -83,7 +83,7 @@ a:hover {
 }
 
 .wide_screen {
-	width: 90%;
+	width: 100%;
 }
 
 .portable_screen{
@@ -102,7 +102,7 @@ a:hover {
 	}
 
 	.portable_screen {
-		width: 90%;
+		width: 100%;
 		display: block;
 	}
 
