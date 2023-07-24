@@ -1,6 +1,12 @@
-img {
+.img {
+    position: relative;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 main {
@@ -10,7 +16,8 @@ main {
 }
 
 .lang{
-    width: 99%
+    width: 99%;
+    min-height: 300px;
 }
 
 .kurz{
