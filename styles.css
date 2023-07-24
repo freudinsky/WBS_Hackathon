@@ -10,11 +10,11 @@ main {
 }
 
 .lang{
-    width: 98%
+    width: 99%
 }
 
 .kurz{
-    width: 48%;
+    width: 49%;
 }
 
 @media screen and (max-width: 720px) {
