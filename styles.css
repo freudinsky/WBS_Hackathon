@@ -73,6 +73,33 @@ a:hover {
 .black_background {
 	color: white;
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+	.lang {
+		min-width: 1500px;
+		min-height: 520px;
+	}
+
+	.kurz {
+		min-width: 770px;
+		min-height: 470px;
+	}
+
+	a {
+		font-size: 1.6rem;
+		margin: 3px;
+	}
+
+	h2 {
+		font-size: 2.5rem;
+	}
+	
+	p {
+		margin: 5px;
+		font-size: 1.5rem;
+	}
+}
+
 @media screen and (max-width: 1199px) {
 	.lang {
 		width: 99%;
@@ -86,17 +113,23 @@ a:hover {
 		min-width: 770px;
 		min-height: 470px;
 	}
-}
 
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
-	.lang {
-		min-width: 1500px;
-		min-height: 520px;
+	.navlinks a {
+		font-size: 1.7ch;
 	}
 
-	.kurz {
-		min-width: 770px;
-		min-height: 470px;
+	a {
+		font-size: 1.35rem;
+		margin: 2px;
+	}
+
+	h2 {
+		font-size: 2.1rem;
+	}
+	
+	p {
+		margin: 3px;
+		font-size: 1.35rem;
 	}
 }
 
@@ -123,11 +156,7 @@ nav {
 	text-decoration: none;
 	font-size: 2.2ch;
 }
-@media screen and (max-width: 1199px) {
-	.navlinks a {
-		font-size: 1.7ch;
-	}
-}
+
 footer {
 	width: 60%;
 	margin: auto;
