@@ -80,8 +80,8 @@ a:hover {
 
 	.kurz {
 		/* width: 95%; */
-		min-width: 550px;
-		min-height: 340px;
+		min-width: 770px;
+		min-height: 470px;
 	}
 }
 
@@ -92,8 +92,8 @@ a:hover {
 	}
 
 	.kurz {
-		min-width: 750px;
-		min-height: 460px;
+		min-width: 770px;
+		min-height: 470px;
 	}
 }
 
