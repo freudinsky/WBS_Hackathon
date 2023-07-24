@@ -12,8 +12,8 @@ body {
 	margin-bottom: 5px;
 	font-family: Arial, Helvetica, sans-serif;
 	cursor: pointer;
-  font-weight: 500;
-  min-height: 650px;
+	font-weight: 500;
+	min-height: 650px;
 }
 
 h2 {
@@ -39,13 +39,13 @@ main {
 }
 
 .lang {
-  	width: 99%;
+	width: 99%;
 	/* min-width: 1885px; */
 }
 
 .kurz {
-  	width: 49%;
-  /* min-width: 940px; */
+	width: 49%;
+	/* min-width: 940px; */
 }
 
 .text {
@@ -61,41 +61,40 @@ main {
 	align-items: center;
 }
 a {
-    font-size: 1.25rem;
+	font-size: 1.25rem;
 	margin: 5px;
-    text-decoration: none;
+	text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .black_background {
 	color: white;
 }
 @media screen and (max-width: 1199px) {
+	.lang {
+		min-width: 1100px;
+		min-height: 380px;
+	}
 
-  .lang {
-    min-width: 1100px;
-    min-height: 380px;
-  }
-  
 	.kurz {
 		/* width: 95%; */
-    min-width: 550px;
-    min-height: 340px;
+		min-width: 550px;
+		min-height: 340px;
 	}
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-    .lang {
-        min-width: 1500px;
-        min-height: 520px;
-      }
-      
-      .kurz {
-        min-width: 750px;
-        min-height: 460px;
-      }
+	.lang {
+		min-width: 1500px;
+		min-height: 520px;
+	}
+
+	.kurz {
+		min-width: 750px;
+		min-height: 460px;
+	}
 }
 
 nav {
@@ -107,6 +106,7 @@ nav {
 	width: 100vw;
 	height: 3rem;
 	top: 0;
+	z-index: 1000;
 }
 .navlinks {
 	display: flex;
@@ -221,11 +221,11 @@ nav {
 footer {
 	width: 60%;
 	margin: auto;
-	font-size: 14px;
+	font-size: 12px;
 	color: gray;
 }
 footer h3 {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 600;
 	margin: 0;
 }
@@ -240,8 +240,9 @@ hr {
 	margin-top: 1em;
 	opacity: 65%;
 }
-a {
+footer a {
 	margin: 0;
+	font-size: 12px;
 }
 .notes li {
 	margin-bottom: 1em;
@@ -295,18 +296,15 @@ a {
 	color: gray;
 	margin: 0;
 }
-
-
-
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-    .lang {
-        min-width: 1500px;
-        min-height: 520px;
-      }
-      
-      .kurz {
-        min-width: 750px;
-        min-height: 460px;
-      }
+	.lang {
+		min-width: 1500px;
+		min-height: 520px;
+	}
+
+	.kurz {
+		min-width: 750px;
+		min-height: 460px;
+	}
 }
